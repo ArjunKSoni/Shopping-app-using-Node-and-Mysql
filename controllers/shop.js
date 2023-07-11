@@ -74,3 +74,16 @@ exports.getCheckout = (req, res, next) => {
     pageTitle: 'Checkout'
   });
 };
+
+exports.getLogin = (req, res, next) => {
+  res.render('authentication/Login', {
+    path: '/login',
+    pageTitle: 'Login'
+  })
+}
+exports.postLogin = (req, res, next) => {
+  res.render('authentication/Login', {
+    path: '/login',
+    pageTitle: 'Login'
+  })
+}
