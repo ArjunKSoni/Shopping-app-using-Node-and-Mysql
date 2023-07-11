@@ -34,7 +34,8 @@ form {
 
 .main-header__nav {
   height: 100%;
-  display: none;
+  display: flex;
+    justify-content: space-between;
   align-items: center;
 }
 
@@ -194,7 +195,7 @@ form {
 .btn:hover,
 .btn:active {
   background-color: #00695c;
-  color: white;
+  color: white !important;
 }
 
 .btn.danger {
